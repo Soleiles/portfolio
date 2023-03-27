@@ -1,0 +1,11 @@
+section{
+    display: flex;
+}
+
+aside {
+    border: 1px black solid;
+    width: 33%;
+    border-right: 3px green solid;
+    min-height: 100vh;
+    text-align: right;
+}

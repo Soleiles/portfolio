@@ -48,14 +48,21 @@ body{
     display: flex;
     width: 18%;
     padding: 20px;
+    height: 100%;
+    width: auto;
 }
 
+.title{
+    padding: 5px;
+    margin-top: 5px;
+}
 main{
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
+/* work section */
 #work{
     display: flex;
     flex-direction: row;
@@ -81,6 +88,8 @@ main{
 #work .work-right img{
     padding: 20px;
     border: 3px solid;
+    height: auto;
+    max-width: 100%;
 }
 
 /* text style */
@@ -94,8 +103,6 @@ h2{
     font-weight: 600;
 }
 p{
-    /* placeholder */
-     /* border: 3px solid black; */
      padding: 5px;
      font-size: 1.5em;
      font-weight: 200;
@@ -111,3 +118,19 @@ footer a{
     font-size: 30px;
     border: 10px;
 }
+
+/* Responsive Web Page */
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .title{
+        font-size: 1.25em;
+    }
+    
+}
+
+@media screen and (max-width: 767px){
+    .title{
+        font-size: .9em
+    }
+}
+    
